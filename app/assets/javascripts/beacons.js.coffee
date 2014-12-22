@@ -3,7 +3,7 @@ $ ->
 
   L.tileLayer('http://{s}.tiles.mapbox.com/v3/yoyostile.j66f39do/{z}/{x}/{y}.png', {
       attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>Maps &copy; Mapbox &copy; OpenStreetMap</a>",
-      maxZoom: 16,
+      maxZoom: 20,
       detectRetina: true
   }).addTo(map)
 
